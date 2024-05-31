@@ -1,0 +1,88 @@
+.navbar {
+  margin-right: 0.1rem;
+}
+
+.container,
+.container--light {
+  height: 5.8rem;
+}
+
+.container {
+  background-color: #23856d;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  padding: 0.9rem 0 0.3rem 0.2rem;
+}
+
+.section {
+  margin: 0 2.3rem 0 2.4rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  gap: 1rem;
+}
+
+.sub-section {
+  margin-bottom: 0.2rem;
+}
+
+.item,
+.item.higher-gap {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  gap: 0.5em;
+}
+
+.item.higher-gap {
+  gap: 1rem;
+}
+
+.item.higher-gap.top-align {
+  align-items: flex-start;
+}
+
+.h-key-info {
+  color: #fff;
+
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 2.4rem;
+  letter-spacing: 0.02rem;
+}
+
+.icon,
+.icon.brand {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.icon.brand {
+  padding: 0.5rem;
+}
+
+.extra-margins .icon.brand:first-child {
+  margin-right: 0.55rem;
+}
+
+.extra-margins .icon.brand:nth-child(2) {
+  margin-right: 0.4rem;
+}
+
+.extra-margins .icon.brand:nth-child(3) {
+  margin-right: 0.6rem;
+}
+
+.extra-margins .icon.brand:last-child {
+  margin-right: 0.05;
+}
