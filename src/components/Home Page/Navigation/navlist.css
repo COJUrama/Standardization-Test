@@ -1,0 +1,17 @@
+.list,
+.list--toggle {
+  font-weight: bold;
+  line-height: 2.4rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.02rem;
+}
+
+.list > h3 {
+  color: #737373;
+}
+
+.list--toggle {
+  padding-bottom: 0.1rem;
+  display: flex;
+  gap: 0.9rem;
+}

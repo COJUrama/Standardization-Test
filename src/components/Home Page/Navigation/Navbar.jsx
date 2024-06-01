@@ -1,6 +1,6 @@
-import './style.css';
-import NavList from '../NavList';
-import SecondNavList from '../SecondNavList';
+import './navbar.css';
+import NavList from './NavList';
+import SecondNavList from './SecondNavList';
 // import SocialMediaIcon from './SocialMediaIcon';
 
 function Navbar() {
@@ -12,25 +12,25 @@ function Navbar() {
             <div className="column">
               <div className="item">
                 <img
-                  src="./Images/General Icons/Call-Icon.svg"
+                  src="./Images/General Icons/Call Icon.svg"
                   alt="Call Icon"
                   className="icon"
                 />
-                <h6 className="h-key-info">(225) 555-0118</h6>
+                <h6 className="key-info">(225) 555-0118</h6>
               </div>
               <div className="item">
                 <img
-                  src="./Images/General Icons/Mail-Icon.svg"
+                  src="./Images/General Icons/Mail Icon.svg"
                   alt="Mail Icon"
                   className="icon"
                 />
-                <h6 className="h-key-info">michael.rivera@example.com</h6>
+                <h6 className="key-info">michael.rivera@example.com</h6>
               </div>
             </div>
             <div className="column">
               <div className="sub-section">
                 <div className="item">
-                  <h6 className="h-key-info">
+                  <h6 className="key-info">
                     Follow Us and get a chance to win 80% off
                   </h6>
                 </div>
@@ -38,7 +38,7 @@ function Navbar() {
             </div>
             <div className="column">
               <div className="item higher-gap top-align">
-                <h6 className="h-key-info">Follow Us :</h6>
+                <h6 className="key-info">Follow Us :</h6>
                 <div className="extra-margins">
                   <img
                     src="./Images/Brand Icons/Instagram-Icon.svg"
@@ -67,12 +67,19 @@ function Navbar() {
         </div>
       </div>
       <div className="container--light">
-        <div>
+        <div className="the-brand">
+          <h3 className="brand-text">Bandage</h3>
+        </div>
+        <div className="collapsable-navbar">
           <div>
-            <h3>Bandage</h3>
+            <NavList content="Home" />
+            <NavList content="Shop" toggle="true" />
+            <NavList content="About" />
+            <NavList content="Blog" />
+            <NavList content="Content" />
+            <NavList content="Page" />
           </div>
           <div>
-            <NavList />
             <SecondNavList />
           </div>
         </div>

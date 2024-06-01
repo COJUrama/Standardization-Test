@@ -1,0 +1,33 @@
+.user-info {
+  display: flex;
+  margin-right: 1.6rem;
+}
+
+.user-details {
+  padding: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.user-details:not(:first-child) {
+  margin: 0.4rem 0;
+}
+
+.user-profile > img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.login-info, 
+.cart-details {
+  color: #23a6f0;
+  # TODO: what is affecting the width of the .login-info?;
+}
+
+.cart-details {
+  font-weight: normal;
+  line-height: 1.6rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.02rem;
+}
