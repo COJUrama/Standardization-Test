@@ -6,9 +6,9 @@ import SecondNavList from './SecondNavList';
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="container">
-        <div className="divider">
-          <section className="section">
+      <div className="navbar__container">
+        <div className="navbar__divider">
+          <section className="navbar__section">
             <div className="column">
               <div className="item">
                 <img
@@ -66,7 +66,7 @@ function Navbar() {
           </section>
         </div>
       </div>
-      <div className="container--light">
+      <div className="navbar__container--light">
         <div className="the-brand">
           <h3 className="brand-text">Bandage</h3>
         </div>

@@ -1,14 +1,16 @@
+import Style from './products.module.css';
+
 function Products() {
   return (
-    <>
-      <div>
-        <section>
+    <div>
+      <div className={Style.container}>
+        <div className={Style.main_content}>
           <h2>Featured Products</h2>
           <h3>BESTSELLER PRODUCTS</h3>
           <p>Problems trying to resolve the conflict between </p>
-        </section>
+        </div>
         <section>
-          <div>
+          {/* <div>
             <section>
               <div>
                 <img src="" alt="Product Cover" />
@@ -123,11 +125,11 @@ function Products() {
                 </div>
               </div>
             </section>
-          </div>
+          </div> */}
         </section>
         <button>LOAD MORE PRODUCTS</button>
       </div>
-    </>
+    </div>
   );
 }
 

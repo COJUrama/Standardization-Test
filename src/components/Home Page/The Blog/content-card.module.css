@@ -1,0 +1,110 @@
+.container {
+  position: relative;
+}
+
+.container > img {
+  width: 34.8rem;
+  height: 30rem;
+}
+
+.container > button {
+  color: #fff;
+  background-color: #e74040;
+  padding: 0 1rem;
+  border: none;
+  border-radius: 0.3rem;
+
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.container > button,
+.learn_more > h6 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.02rem;
+}
+
+.the_info,
+.tags,
+.the_details,
+.the_details > div,
+.learn_more {
+  display: flex;
+}
+
+.the_info {
+  padding: 2.5rem;
+  padding-bottom: 3.5rem;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.tags {
+  gap: 1.5rem;
+}
+
+.tags > h6,
+.the_info > h4,
+.the_info > p {
+  font-weight: 400;
+  letter-spacing: 0.02rem;
+}
+
+.tags > h6,
+.the_info > p,
+.learn_more > h6 {
+  color: #737373;
+}
+
+.tags > h6 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+.tags > h6:first-child {
+  color: #8ec2f2;
+}
+
+.the_info > h4 {
+  font-size: 2rem;
+  line-height: 3rem;
+
+  width: 24.7rem;
+}
+
+.the_info > p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+
+  width: 28rem;
+}
+
+.the_details {
+  padding: 1.5rem 0;
+  justify-content: space-between;
+}
+
+.the_details > div,
+.learn_more {
+  align-items: center;
+}
+
+.the_details > div {
+  gap: 0.5rem;
+}
+
+.the_details > div img {
+  max-height: 1.6rem;
+}
+
+.learn_more {
+  gap: 1rem;
+}
+
+.learn_more img {
+  width: 0.9rem;
+  height: 1.6rem;
+}

@@ -1,9 +1,9 @@
 import Header from './Header';
-import Shop from './Shop';
-import Products from './Products';
-import Features from './Features';
-import Blog from './Blog';
-import Testimonials from './Testimonials';
+import Shop from './Shopping/Shop';
+import Products from './The Products/Products';
+import Features from './The Features/Features';
+import Blog from './The Blog/Blog';
+import Testimonials from './The Testimonials/Testimonials';
 import CallToAction from './CallToAction';
 import Footer from './Footer';
 

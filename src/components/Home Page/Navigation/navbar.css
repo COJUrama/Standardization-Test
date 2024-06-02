@@ -2,23 +2,23 @@
   margin-right: 0.1rem;
 }
 
-.container,
-.container--light {
+.navbar__container,
+.navbar__container--light {
   height: 5.8rem;
 }
 
-.container {
+.navbar__container {
   background-color: #23856d;
   margin-bottom: 1.2rem;
 }
 
-.divider {
+.navbar__divider {
   display: flex;
   align-items: center;
   padding: 0.9rem 0 0.3rem 0.2rem;
 }
 
-.section {
+.navbar__section {
   margin: 0 2.3rem 0 2.4rem;
   display: flex;
   justify-content: space-between;
@@ -96,7 +96,7 @@
   margin-right: 0.05rem;
 }
 
-.container--light {
+.navbar__container--light {
   margin-right: 0.2rem;
   display: flex;
   gap: 4rem;

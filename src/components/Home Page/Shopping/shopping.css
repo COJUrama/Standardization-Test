@@ -1,0 +1,49 @@
+.img-column,
+.group,
+.sub-group {
+  display: flex;
+}
+
+.img-column,
+.group {
+  gap: 1.5rem;
+}
+
+.img-column {
+  padding: 8rem 0;
+  justify-content: center;
+  margin: 0.4rem 0;
+}
+
+.group {
+  flex-direction: column;
+}
+
+.sub-group {
+  gap: 1.6rem;
+}
+
+.card-content {
+  padding: 2.4rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+
+  position: absolute;
+}
+
+.card-content > h6 {
+  font-weight: bold;
+  line-height: 2.4rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.02rem;
+}
+
+.card-content > h6:first-child {
+  color: #2dc071;
+}
+
+.card-content > h6:nth-child(2) {
+  line-height: 5rem;
+  font-size: 4rem;
+}

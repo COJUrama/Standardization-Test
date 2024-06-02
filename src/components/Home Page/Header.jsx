@@ -4,6 +4,7 @@ function Header() {
   return (
     <>
       <Navbar />
+      {/* TODO: Restructure this */}
     </>
   );
 }
