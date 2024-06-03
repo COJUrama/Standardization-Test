@@ -1,8 +1,39 @@
 import './shopping.css';
 function Shop() {
+  const groupInfo = [
+    {
+      key: 1,
+      cardContent: ['5 Items', 'FURNITURE', 'Read More'],
+      imgSrc: './Images/E-Commerce Samples/Card-Item 01.png',
+    },
+    {
+      key: 2,
+      cardContent: ['5 Items', 'FURNITURE', 'Read More'],
+      imgSrc: './Images/E-Commerce Samples/Card-Item 02.png',
+    },
+    {
+      key: 3,
+      cardContent: ['5 Items', 'FURNITURE', 'Read More'],
+      imgSrc: './Images/E-Commerce Samples/Card-Item 03.png',
+    },
+    {
+      key: 4,
+      cardContent: ['5 Items', 'FURNITURE', 'Read More'],
+      imgSrc: './Images/E-Commerce Samples/Card-Item 04.png',
+    },
+  ];
+
   return (
     <div className="img-column">
-      <div className="group">
+      {groupInfo.map((info) => (
+        <div key={info.key}>
+          {info.cardContent.map((details) => (
+            <h6 key={details}>{details}</h6>
+          ))}
+          <img src={info.imgSrc} alt="Card Item" />
+        </div>
+      ))}
+      {/* <div className="group">
         <div className="card-content">
           <h6>5 Items</h6>
           <h6>FURNITURE</h6>
@@ -12,44 +43,7 @@ function Shop() {
           src="./Images/E-Commerce Samples/Card-Item 01.png"
           alt="Card Item"
         />
-      </div>
-      <div className="group">
-        <div>
-          <div className="card-content">
-            <h6>5 Items</h6>
-            <h6>FURNITURE</h6>
-            <h6>Read More</h6>
-          </div>
-          <img
-            src="./Images/E-Commerce Samples/Card-Item 02.png"
-            alt="Card Item"
-          />
-        </div>
-        <div className="sub-group">
-          <div>
-            <div className="card-content">
-              <h6>5 Items</h6>
-              <h6>FURNITURE</h6>
-              <h6>Read More</h6>
-            </div>
-            <img
-              src="./Images/E-Commerce Samples/Card-Item 03.png"
-              alt="Card Item"
-            />
-          </div>
-          <div>
-            <div className="card-content">
-              <h6>5 Items</h6>
-              <h6>FURNITURE</h6>
-              <h6>Read More</h6>
-            </div>
-            <img
-              src="./Images/E-Commerce Samples/Card-Item 04.png"
-              alt="Card Item"
-            />
-          </div>
-        </div>
-      </div>
+      </div> */}
     </div>
   );
 }

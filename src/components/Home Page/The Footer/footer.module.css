@@ -1,0 +1,168 @@
+.container,
+.brand,
+.social_media,
+.links,
+.content_wrapper,
+.get_in_touch div {
+  display: flex;
+}
+
+.container,
+.get_in_touch div {
+  flex-direction: column;
+}
+
+.container {
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.brand,
+.content_wrapper {
+  justify-content: space-between;
+}
+
+.brand {
+  padding: 4rem 0;
+  padding-right: 0.05rem;
+
+  align-items: center;
+}
+
+.brand_info h6,
+.links h5 {
+  letter-spacing: 0.01rem;
+}
+
+.brand_info h6 {
+  padding: 1.3rem 0;
+}
+
+.social_media {
+  padding: 0 6.2rem;
+  gap: 2rem;
+}
+
+.social_media img {
+  height: 2.2rem;
+}
+
+.hr {
+  width: 105.7rem;
+  height: 0.1rem;
+  background-color: #e6e6e6;
+  margin-bottom: 0.4rem;
+}
+
+.container > div:last-of-type h6,
+.links h5,
+.links h6,
+.data_section p {
+  font-weight: 700;
+}
+
+.container > div:last-of-type h6,
+.links h6,
+.data_section p,
+.get_in_touch input,
+.get_in_touch button {
+  font-size: 1.4rem;
+}
+
+.container > div:last-of-type h6,
+.links h5,
+.links h6,
+.data_section p {
+  line-height: 2.4rem;
+}
+
+.container > div:last-of-type h6 {
+  color: #737373;
+
+  padding-right: 25rem;
+  margin: 2.5rem 0;
+}
+
+.links {
+  gap: 3rem;
+  padding: 5rem 0;
+  padding-right: 0.9rem;
+  justify-content: flex-end;
+}
+
+.links h5 {
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+}
+
+.links h6,
+.data_section p {
+  color: #737373;
+}
+
+.links h6,
+.data_section p,
+.get_in_touch h6,
+.get_in_touch input,
+.get_in_touch button,
+.container > div:last-of-type h6 {
+  letter-spacing: 0.02rem;
+}
+
+.content_wrapper {
+  width: 67%;
+}
+
+.data_section h4:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.get_in_touch h6,
+.get_in_touch input,
+.get_in_touch button {
+  font-weight: 400;
+  line-height: 2.8rem;
+}
+
+.get_in_touch h6 {
+  font-size: 1.2rem;
+
+  margin-left: 0.2rem;
+  margin-top: 0.1rem;
+}
+
+.get_in_touch div {
+  position: relative;
+
+  width: 32.1rem;
+  height: 5.8rem;
+
+  align-items: flex-end;
+}
+
+.get_in_touch div * {
+  height: inherit;
+}
+
+.get_in_touch input,
+.get_in_touch button {
+  border: 0.1rem solid #e6e6e6;
+}
+
+.get_in_touch input {
+  border-radius: 0.5rem;
+  background-color: #f9f9f9;
+
+  padding-left: 2rem;
+
+  position: absolute;
+  z-index: -1;
+  width: inherit;
+}
+
+.get_in_touch button {
+  color: #ffff;
+  background-color: #23a6f0;
+
+  border-radius: 0 0.5rem 0.5rem 0;
+}

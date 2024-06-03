@@ -1,7 +1,6 @@
 import './navbar.css';
 import NavList from './NavList';
 import SecondNavList from './SecondNavList';
-// import SocialMediaIcon from './SocialMediaIcon';
 
 function Navbar() {
   return (
@@ -37,7 +36,7 @@ function Navbar() {
               </div>
             </div>
             <div className="column">
-              <div className="item higher-gap top-align">
+              <div className="item higher-gap">
                 <h6 className="key-info">Follow Us :</h6>
                 <div className="extra-margins">
                   <img

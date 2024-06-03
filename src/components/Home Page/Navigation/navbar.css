@@ -12,44 +12,57 @@
   margin-bottom: 1.2rem;
 }
 
-.navbar__divider {
+.navbar__divider,
+.navbar__section,
+.column,
+.item,
+.item.higher-gap,
+.navbar__container--light,
+.the-brand,
+.collapsable-navbar,
+.collapsable-navbar > div {
   display: flex;
+}
+
+.navbar__divider,
+.item,
+.item.higher-gap,
+.the-brand,
+.collapsable-navbar {
   align-items: center;
+}
+
+.navbar__divider {
   padding: 0.9rem 0 0.3rem 0.2rem;
 }
 
 .navbar__section {
   margin: 0 2.3rem 0 2.4rem;
-  display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-.column {
-  display: flex;
+.column,
+.item.higher-gap {
   gap: 1rem;
 }
 
-.sub-section {
+.sub-section,
+.key-info {
   margin-bottom: 0.2rem;
 }
 
 .item,
 .item.higher-gap {
   margin: 1rem;
-  display: flex;
-  align-items: center;
 }
 
 .item {
   gap: 0.5em;
 }
 
-.item.higher-gap {
-  gap: 1rem;
-}
-
-.item.higher-gap.top-align {
+.item.higher-gap,
+.collapsable-navbar > div {
   align-items: flex-start;
 }
 
@@ -60,7 +73,8 @@
 }
 
 .key-info,
-.login-info {
+.login-info,
+.brand-text {
   line-height: 2.4rem;
   font-size: 1.4rem;
   letter-spacing: 0.02rem;
@@ -70,14 +84,14 @@
   color: #fff;
 }
 
+.extra-margins {
+  align-self: center;
+}
+
 .icon,
 .icon.brand {
   width: 1.6rem;
   height: 1.6rem;
-}
-
-.icon.brand {
-  padding: 0.5rem;
 }
 
 .extra-margins .icon.brand:first-child {
@@ -98,32 +112,24 @@
 
 .navbar__container--light {
   margin-right: 0.2rem;
-  display: flex;
   gap: 4rem;
 }
 
 .the-brand {
   margin-left: 3.8rem;
-  display: flex;
-  align-items: center;
 }
 
 .brand-text {
   line-height: 3.2rem;
   font-size: 2.4rem;
-  letter-spacing: 0.02rem;
   padding-right: 7.3rem;
 }
 
 .collapsable-navbar {
-  display: flex;
-  align-items: center;
   gap: 47.1rem;
   margin-right: 1.7rem;
 }
 
 .collapsable-navbar > div {
-  display: flex;
   gap: 1.5rem;
-  align-items: flex-start;
 }

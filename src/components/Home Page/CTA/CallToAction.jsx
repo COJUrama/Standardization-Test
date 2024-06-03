@@ -1,8 +1,10 @@
+import Style from './cta.module.css';
+
 function CallToAction() {
   return (
-    <div className="container">
-      <img src="" alt="Background Image" />
-      <div>
+    <div className={Style.container}>
+      <img src="./Images/Background Image.png" alt="Background Image" />
+      <div className={Style.column}>
         <h2>Designing Better Experience</h2>
         <h2>Problems trying to resolve the conflict between </h2>
         <p>
