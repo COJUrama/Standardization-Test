@@ -9,17 +9,16 @@
 }
 
 .container img {
-  overflow: hidden;
+  width: 100%;
 }
 
 .column {
-  padding: 16rem 22.15rem 11.2rem;
   flex-direction: column;
   align-items: center;
   gap: 3rem;
 
   position: absolute;
-  top: 0;
+  top: 16rem;
 }
 
 .column h2,

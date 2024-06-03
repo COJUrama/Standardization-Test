@@ -35,17 +35,6 @@ function Shop() {
           <img src={info.imgSrc} alt="Card Item" />
         </div>
       ))}
-      {/* <div className="group">
-        <div className="card-content">
-          <h6>5 Items</h6>
-          <h6>FURNITURE</h6>
-          <h6>Read More</h6>
-        </div>
-        <img
-          src="./Images/E-Commerce Samples/Card-Item 01.png"
-          alt="Card Item"
-        />
-      </div> */}
     </div>
   );
 }

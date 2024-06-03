@@ -1,5 +1,6 @@
 .container {
   margin-left: 11.7rem;
+  margin-right: 19.5rem;
   padding: 8rem 0;
 }
 
@@ -10,8 +11,7 @@
 
 .sections,
 .the_curtail,
-.the_curtail > div,
-.the_images {
+.the_curtail > div {
   display: flex;
 }
 
@@ -68,8 +68,11 @@
 }
 
 .the_images {
-  flex-wrap: wrap;
+  max-width: 46.4rem;
+  display: grid;
   gap: 1.586rem 1.785rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr) 0.76fr;
 
   /* TODO: Why is this wider than it should be? */
 }

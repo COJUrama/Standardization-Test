@@ -1,5 +1,6 @@
 .group,
-.sub-group {
+.sub-group,
+.card-content {
   display: flex;
 }
 
@@ -30,18 +31,18 @@
   grid-column: span 2;
 }
 
-.card-content {
-  position: absolute;
+.group img {
+  width: 100%;
 }
 
-/* group {
+.card-content {
+  position: absolute;
+
   padding: 2.4rem;
   display: flex;
   gap: 0.5rem;
   flex-direction: column;
-
-  position: absolute;
-} */
+}
 
 .card-content h6 {
   font-weight: bold;
