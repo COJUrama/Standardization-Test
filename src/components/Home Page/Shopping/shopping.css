@@ -1,4 +1,3 @@
-.img-column,
 .group,
 .sub-group {
   display: flex;
@@ -13,37 +12,49 @@
   padding: 8rem 0;
   justify-content: center;
   margin: 0.4rem 0;
+
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 45.2rem repeat(2, 33.2rem);
 }
 
 .group {
-  flex-direction: column;
+  position: relative;
 }
 
-.sub-group {
-  gap: 1.6rem;
+.group:first-of-type {
+  grid-row: span 2;
+}
+
+.group:nth-of-type(2) {
+  grid-column: span 2;
 }
 
 .card-content {
+  position: absolute;
+}
+
+/* group {
   padding: 2.4rem;
   display: flex;
   gap: 0.5rem;
   flex-direction: column;
 
   position: absolute;
-}
+} */
 
-.card-content > h6 {
+.card-content h6 {
   font-weight: bold;
   line-height: 2.4rem;
   font-size: 1.4rem;
   letter-spacing: 0.02rem;
 }
 
-.card-content > h6:first-child {
+.card-content h6:first-child {
   color: #2dc071;
 }
 
-.card-content > h6:nth-child(2) {
+.card-content h6:nth-child(2) {
   line-height: 5rem;
   font-size: 4rem;
 }

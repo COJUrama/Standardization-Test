@@ -26,10 +26,12 @@ function Shop() {
   return (
     <div className="img-column">
       {groupInfo.map((info) => (
-        <div key={info.key}>
-          {info.cardContent.map((details) => (
-            <h6 key={details}>{details}</h6>
-          ))}
+        <div key={info.key} className="group">
+          <div className="card-content">
+            {info.cardContent.map((details) => (
+              <h6 key={details}>{details}</h6>
+            ))}
+          </div>
           <img src={info.imgSrc} alt="Card Item" />
         </div>
       ))}
